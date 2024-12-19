@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.block{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+#logo{
+    width: 5vw;
+    position: absolute;
+    left: 20%;
+    top: 10px;
+}
+#arrow{
+    position: absolute;
+    height: 10vh;
+    right: 10%;
+    bottom: 0;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+.headerimg{
+    width: 3vw;
+    margin: 0 2vh;
+}
+#oneheader{
+    background-color: rgb(57, 0, 111);
+        font-family: "Tinos", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+#twoheader, #threeheader {
+    font-size: 30px;
+    color: black;
+        font-family: "Kings", serif;
+        font-weight: 400;
+        font-style: normal;      
+}
+main{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+#onemain{
+    background: url(../picture/screen1_background.jpg) no-repeat;
+    width: 100vw;
+    height: 90vh;
+        font-family: "Fugaz One", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+#twomain{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.two{
+    display: flex;
+    height: 44vh;
+}
+.twomain{
+    height: 44vh;
+}
+.twomain1{
+    font-size: 30px;
+    position: absolute;
+    background-color: blueviolet;
+    text-align: center;
+    width: 15vh;
+    margin: 38vh 8vh 0 8vh;
+        font-family: "Kings", serif;
+        font-weight: 400;
+        font-style: normal; 
+
+}
+.treemain{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    text-align: center;
+}
+#main1{
+    position: absolute;
+    top: 10%;
+}
+#main2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#main3{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    font-size: 100px;
+}
+#buy{
+    background-color: blueviolet;
+    width: 20vw;
+    font-size: 45px;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+}
+#main31, #main32, .m3{
+    width: 40vw;
+}
+#main31{
+    float: left;
+}
+#main32{
+    float: right;
+}
+.m3{
+    font-size: 24px;
+    text-align: justify;
+    color: black;
+        font-family: "Tinos", serif;
+        font-weight: 400;
+        font-style: italic;
+}
